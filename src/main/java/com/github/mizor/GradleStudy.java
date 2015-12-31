@@ -6,9 +6,7 @@ public class GradleStudy {
     public static void main(String... args) throws IOException {
       BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
-      System.out.print("Please input your name: ");
+      System.out.print(com.github.mizor.IO.STDIN.read());
       System.out.flush();
-      String username = in.readLine();
-      System.out.println("Hello, " + username + " :metal:");
     }
 }
