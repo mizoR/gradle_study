@@ -1,7 +1,11 @@
 apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'com.github.mizor.GradleStudy'
+applicationName = 'GradleStudy'
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 // In this section you declare the dependencies for your production and test code
@@ -9,4 +13,8 @@ dependencies {
     compile 'org.slf4j:slf4j-api:1.7.13'
 
     testCompile 'junit:junit:4.12'
+}
+
+run {
+    standardInput = System.in
 }
