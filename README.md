@@ -13,3 +13,11 @@ gradle init --type java-library
 ```
 
 see: [Chapter 15. Build Init Plugin](https://docs.gradle.org/current/userguide/build_init_plugin.html)
+
+## gradle build
+
+コンパイルとJARファイルの生成を行う。
+
+```sh
+gradle build
+```
